@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.flashcard h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.flashcard p {
+  font-size: 1em;
+}
+
+.flashcard input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.flashcard button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
